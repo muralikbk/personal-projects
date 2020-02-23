@@ -1,3 +1,7 @@
+Project Requirements in the ProjectRequirements.md file.
+Project is coded in Python 3 on Ubuntu 19.10 (Linux).
+
+
 Assumptions:
 I am making the following assumptions :
 1) The list of products with prices as well as the checkout list will be input as file of particular format which will be added in Readme of the program.
@@ -29,3 +33,5 @@ The project is divided into the following modules:
     Reads input line by line - each line being a comma separated list of items. Then prints the final price of the shopping cart.
     The program keeps reading inputs till it reads "quit".
     Input and item inputs are case insensitive.
+
+Run the project using the command ./run_shoppingcart.sh

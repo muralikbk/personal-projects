@@ -1,0 +1,22 @@
+Input Data
++----+---+
+|dept|age|
++----+---+
+| ECE| 23|
+| ECE| 25|
+|  CS| 22|
+|  CS| 24|
++----+---+
+
+Result using map reduce
+[['ECE', 24.0], ['CS', 23.0]]
+ 
+ 
+Result using map reduce
++----+--------+
+|dept|avg(age)|
++----+--------+
+| ECE|    24.0|
+|  CS|    23.0|
++----+--------+
+

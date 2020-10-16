@@ -91,6 +91,15 @@ brew install python3
 pip3 install pyspark
 ```
 
+Next, set up the spark environment by adding the following to the **~\.zshrc** file:
+```
+export SPARK_HOME=/usr/local/lib/python3.7/site-packages/pyspark
+export PYSPARK_PYTHON=python3
+```
+
+
+
+
 Now, add the following contents to a test python file, say pysparktest.py.
 ```
 from pyspark import SparkContext sc = SparkContext(master = 'local[*]') 

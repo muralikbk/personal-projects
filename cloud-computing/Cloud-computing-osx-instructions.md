@@ -89,6 +89,7 @@ To install Python and pySpark, use the following commands:
 ```
 brew install python3
 pip3 install pyspark
+pip3 install psutil
 ```
 
 Next, set up the spark environment by adding the following to the **~\.zshrc** file:

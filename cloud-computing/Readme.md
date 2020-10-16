@@ -1,0 +1,1 @@
+This project contains install instructions and basic examples to get started with spark.
